@@ -39,7 +39,7 @@ namespace TrackMyJob.Api
             {
                 //if (this.Environment.IsEnvironment("IntegrationTests"))
                 //{
-                    options.UseInMemoryDatabase("IntegrationTests");
+                options.UseInMemoryDatabase("IntegrationTests");
                 //}
                 //else
                 //{
